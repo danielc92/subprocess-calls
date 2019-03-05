@@ -19,7 +19,7 @@ def push(filename):
     call(['git', 'push', 'origin', 'master'])
     print('Pushed to remote repo...')
 
-seconds = 10
+seconds = 3
 for x in range(10):
     sleep(seconds)
     filename = create_filename()
