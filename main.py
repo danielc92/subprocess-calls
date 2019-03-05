@@ -9,7 +9,7 @@ def create_filename():
 
 # Create a file
 def add_file(filename):
-    call(['touch', filename])
+    call(['touch', 'html/{}'.format(filename)])
     print('Created filename {}'.format(filename))
 
 # Push
