@@ -3,7 +3,7 @@ from uuid import uuid4
 from time import sleep
 
 def create_filename():
-    filename = str(uuid4()) + 'html'
+    filename = str(uuid4()) + '.html'
     print('Filename assigned {}'.format(filename))
     return filename
 
